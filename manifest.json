@@ -1,0 +1,15 @@
+{
+    "name": "Tab Transfer",
+    "version": "1.0.0",
+    "permissions": ["tabs"],
+    "description": "Transfer tabs between devices",
+    "manifest_version": 3,
+    "author": "Mustakim Ahmed Hasan",
+    "background": {
+        "service_worker": "index.js"
+      },
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Tab Transfer"
+    }
+}
